@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA37FB123A122A2000DADED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FB023A122A2000DADED /* AppDelegate.m */; };
+		FDA37FBC23A122A4000DADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA37FBB23A122A4000DADED /* Assets.xcassets */; };
+		FDA37FBF23A122A4000DADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA37FBD23A122A4000DADED /* LaunchScreen.storyboard */; };
+		FDA37FC223A122A4000DADED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FC123A122A4000DADED /* main.m */; };
+		FDA37FCC23A122A4000DADED /* YWPaintViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FCB23A122A4000DADED /* YWPaintViewTests.m */; };
+		FDA37FD723A122A4000DADED /* YWPaintViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FD623A122A4000DADED /* YWPaintViewUITests.m */; };
+		FDA37FEA23A1244A000DADED /* YWPaintController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FE823A1244A000DADED /* YWPaintController.m */; };
+		FDA37FEB23A1244A000DADED /* YWPaintController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA37FE923A1244A000DADED /* YWPaintController.xib */; };
+		FDA37FEE23A1249F000DADED /* YWPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FED23A1249F000DADED /* YWPaintView.m */; };
+		FDA37FF523A126F8000DADED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FF023A126F7000DADED /* MBProgressHUD.m */; };
+		FDA37FF623A126F8000DADED /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FF323A126F7000DADED /* MBProgressHUD+MJ.m */; };
+		FDA37FF723A126F8000DADED /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDA37FF423A126F7000DADED /* MBProgressHUD.bundle */; };
+		FDA3800323A12710000DADED /* StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FFA23A12710000DADED /* StringSize.m */; };
+		FDA3800423A12710000DADED /* UIImage+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FFE23A12710000DADED /* UIImage+MJ.m */; };
+		FDA3800523A12710000DADED /* ExtensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37FFF23A12710000DADED /* ExtensionButton.m */; };
+		FDA3800623A12710000DADED /* UIImage+YW.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3800023A12710000DADED /* UIImage+YW.m */; };
+		FDA3800723A12710000DADED /* YWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3800223A12710000DADED /* YWTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA37FC823A122A4000DADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA37FA423A122A2000DADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA37FAB23A122A2000DADED;
+			remoteInfo = YWPaintView;
+		};
+		FDA37FD323A122A4000DADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA37FA423A122A2000DADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA37FAB23A122A2000DADED;
+			remoteInfo = YWPaintView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA37FAC23A122A2000DADED /* YWPaintView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWPaintView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37FAF23A122A2000DADED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA37FB023A122A2000DADED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA37FBB23A122A4000DADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA37FBE23A122A4000DADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA37FC023A122A4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37FC123A122A4000DADED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA37FC723A122A4000DADED /* YWPaintViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWPaintViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37FCB23A122A4000DADED /* YWPaintViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWPaintViewTests.m; sourceTree = "<group>"; };
+		FDA37FCD23A122A4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37FD223A122A4000DADED /* YWPaintViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWPaintViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37FD623A122A4000DADED /* YWPaintViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWPaintViewUITests.m; sourceTree = "<group>"; };
+		FDA37FD823A122A4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37FE723A1244A000DADED /* YWPaintController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWPaintController.h; sourceTree = "<group>"; };
+		FDA37FE823A1244A000DADED /* YWPaintController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWPaintController.m; sourceTree = "<group>"; };
+		FDA37FE923A1244A000DADED /* YWPaintController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWPaintController.xib; sourceTree = "<group>"; };
+		FDA37FEC23A1249F000DADED /* YWPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPaintView.h; sourceTree = "<group>"; };
+		FDA37FED23A1249F000DADED /* YWPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWPaintView.m; sourceTree = "<group>"; };
+		FDA37FF023A126F7000DADED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FDA37FF123A126F7000DADED /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		FDA37FF223A126F7000DADED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FDA37FF323A126F7000DADED /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		FDA37FF423A126F7000DADED /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		FDA37FF923A12710000DADED /* UIImage+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJ.h"; sourceTree = "<group>"; };
+		FDA37FFA23A12710000DADED /* StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSize.m; sourceTree = "<group>"; };
+		FDA37FFB23A12710000DADED /* UIImage+YW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YW.h"; sourceTree = "<group>"; };
+		FDA37FFC23A12710000DADED /* ExtensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionButton.h; sourceTree = "<group>"; };
+		FDA37FFD23A12710000DADED /* YWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTool.h; sourceTree = "<group>"; };
+		FDA37FFE23A12710000DADED /* UIImage+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJ.m"; sourceTree = "<group>"; };
+		FDA37FFF23A12710000DADED /* ExtensionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionButton.m; sourceTree = "<group>"; };
+		FDA3800023A12710000DADED /* UIImage+YW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YW.m"; sourceTree = "<group>"; };
+		FDA3800123A12710000DADED /* StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSize.h; sourceTree = "<group>"; };
+		FDA3800223A12710000DADED /* YWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA37FA923A122A2000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FC423A122A4000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FCF23A122A4000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA37FA323A122A2000DADED = {
+			isa = PBXGroup;
+			children = (
+				FDA37FAE23A122A2000DADED /* YWPaintView */,
+				FDA37FCA23A122A4000DADED /* YWPaintViewTests */,
+				FDA37FD523A122A4000DADED /* YWPaintViewUITests */,
+				FDA37FAD23A122A2000DADED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA37FAD23A122A2000DADED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FAC23A122A2000DADED /* YWPaintView.app */,
+				FDA37FC723A122A4000DADED /* YWPaintViewTests.xctest */,
+				FDA37FD223A122A4000DADED /* YWPaintViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA37FAE23A122A2000DADED /* YWPaintView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FE423A12439000DADED /* YWPaintView */,
+				FDA37FF823A12710000DADED /* Category */,
+				FDA37FEF23A126F7000DADED /* MBProgressHUD */,
+				FDA37FAF23A122A2000DADED /* AppDelegate.h */,
+				FDA37FB023A122A2000DADED /* AppDelegate.m */,
+				FDA37FBB23A122A4000DADED /* Assets.xcassets */,
+				FDA37FBD23A122A4000DADED /* LaunchScreen.storyboard */,
+				FDA37FC023A122A4000DADED /* Info.plist */,
+				FDA37FC123A122A4000DADED /* main.m */,
+			);
+			path = YWPaintView;
+			sourceTree = "<group>";
+		};
+		FDA37FCA23A122A4000DADED /* YWPaintViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FCB23A122A4000DADED /* YWPaintViewTests.m */,
+				FDA37FCD23A122A4000DADED /* Info.plist */,
+			);
+			path = YWPaintViewTests;
+			sourceTree = "<group>";
+		};
+		FDA37FD523A122A4000DADED /* YWPaintViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FD623A122A4000DADED /* YWPaintViewUITests.m */,
+				FDA37FD823A122A4000DADED /* Info.plist */,
+			);
+			path = YWPaintViewUITests;
+			sourceTree = "<group>";
+		};
+		FDA37FE423A12439000DADED /* YWPaintView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FE523A12439000DADED /* Controller */,
+				FDA37FE623A12439000DADED /* View */,
+			);
+			path = YWPaintView;
+			sourceTree = "<group>";
+		};
+		FDA37FE523A12439000DADED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FE723A1244A000DADED /* YWPaintController.h */,
+				FDA37FE823A1244A000DADED /* YWPaintController.m */,
+				FDA37FE923A1244A000DADED /* YWPaintController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDA37FE623A12439000DADED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FEC23A1249F000DADED /* YWPaintView.h */,
+				FDA37FED23A1249F000DADED /* YWPaintView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDA37FEF23A126F7000DADED /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FF023A126F7000DADED /* MBProgressHUD.m */,
+				FDA37FF123A126F7000DADED /* MBProgressHUD+MJ.h */,
+				FDA37FF223A126F7000DADED /* MBProgressHUD.h */,
+				FDA37FF323A126F7000DADED /* MBProgressHUD+MJ.m */,
+				FDA37FF423A126F7000DADED /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FDA37FF823A12710000DADED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37FF923A12710000DADED /* UIImage+MJ.h */,
+				FDA37FFA23A12710000DADED /* StringSize.m */,
+				FDA37FFB23A12710000DADED /* UIImage+YW.h */,
+				FDA37FFC23A12710000DADED /* ExtensionButton.h */,
+				FDA37FFD23A12710000DADED /* YWTool.h */,
+				FDA37FFE23A12710000DADED /* UIImage+MJ.m */,
+				FDA37FFF23A12710000DADED /* ExtensionButton.m */,
+				FDA3800023A12710000DADED /* UIImage+YW.m */,
+				FDA3800123A12710000DADED /* StringSize.h */,
+				FDA3800223A12710000DADED /* YWTool.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA37FAB23A122A2000DADED /* YWPaintView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37FDB23A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintView" */;
+			buildPhases = (
+				FDA37FA823A122A2000DADED /* Sources */,
+				FDA37FA923A122A2000DADED /* Frameworks */,
+				FDA37FAA23A122A2000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWPaintView;
+			productName = YWPaintView;
+			productReference = FDA37FAC23A122A2000DADED /* YWPaintView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA37FC623A122A4000DADED /* YWPaintViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37FDE23A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintViewTests" */;
+			buildPhases = (
+				FDA37FC323A122A4000DADED /* Sources */,
+				FDA37FC423A122A4000DADED /* Frameworks */,
+				FDA37FC523A122A4000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA37FC923A122A4000DADED /* PBXTargetDependency */,
+			);
+			name = YWPaintViewTests;
+			productName = YWPaintViewTests;
+			productReference = FDA37FC723A122A4000DADED /* YWPaintViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA37FD123A122A4000DADED /* YWPaintViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37FE123A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintViewUITests" */;
+			buildPhases = (
+				FDA37FCE23A122A4000DADED /* Sources */,
+				FDA37FCF23A122A4000DADED /* Frameworks */,
+				FDA37FD023A122A4000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA37FD423A122A4000DADED /* PBXTargetDependency */,
+			);
+			name = YWPaintViewUITests;
+			productName = YWPaintViewUITests;
+			productReference = FDA37FD223A122A4000DADED /* YWPaintViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA37FA423A122A2000DADED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = YW;
+				TargetAttributes = {
+					FDA37FAB23A122A2000DADED = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FDA37FC623A122A4000DADED = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FDA37FAB23A122A2000DADED;
+					};
+					FDA37FD123A122A4000DADED = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FDA37FAB23A122A2000DADED;
+					};
+				};
+			};
+			buildConfigurationList = FDA37FA723A122A2000DADED /* Build configuration list for PBXProject "YWPaintView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA37FA323A122A2000DADED;
+			productRefGroup = FDA37FAD23A122A2000DADED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA37FAB23A122A2000DADED /* YWPaintView */,
+				FDA37FC623A122A4000DADED /* YWPaintViewTests */,
+				FDA37FD123A122A4000DADED /* YWPaintViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA37FAA23A122A2000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37FBF23A122A4000DADED /* LaunchScreen.storyboard in Resources */,
+				FDA37FF723A126F8000DADED /* MBProgressHUD.bundle in Resources */,
+				FDA37FEB23A1244A000DADED /* YWPaintController.xib in Resources */,
+				FDA37FBC23A122A4000DADED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FC523A122A4000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FD023A122A4000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA37FA823A122A2000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37FF623A126F8000DADED /* MBProgressHUD+MJ.m in Sources */,
+				FDA3800623A12710000DADED /* UIImage+YW.m in Sources */,
+				FDA3800323A12710000DADED /* StringSize.m in Sources */,
+				FDA3800423A12710000DADED /* UIImage+MJ.m in Sources */,
+				FDA3800523A12710000DADED /* ExtensionButton.m in Sources */,
+				FDA37FEE23A1249F000DADED /* YWPaintView.m in Sources */,
+				FDA37FB123A122A2000DADED /* AppDelegate.m in Sources */,
+				FDA3800723A12710000DADED /* YWTool.m in Sources */,
+				FDA37FF523A126F8000DADED /* MBProgressHUD.m in Sources */,
+				FDA37FEA23A1244A000DADED /* YWPaintController.m in Sources */,
+				FDA37FC223A122A4000DADED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FC323A122A4000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37FCC23A122A4000DADED /* YWPaintViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37FCE23A122A4000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37FD723A122A4000DADED /* YWPaintViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA37FC923A122A4000DADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA37FAB23A122A2000DADED /* YWPaintView */;
+			targetProxy = FDA37FC823A122A4000DADED /* PBXContainerItemProxy */;
+		};
+		FDA37FD423A122A4000DADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA37FAB23A122A2000DADED /* YWPaintView */;
+			targetProxy = FDA37FD323A122A4000DADED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA37FBD23A122A4000DADED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA37FBE23A122A4000DADED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA37FD923A122A4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA37FDA23A122A4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA37FDC23A122A4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GS5H72VYE;
+				INFOPLIST_FILE = YWPaintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDA37FDD23A122A4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GS5H72VYE;
+				INFOPLIST_FILE = YWPaintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDA37FDF23A122A4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWPaintViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWPaintView.app/YWPaintView";
+			};
+			name = Debug;
+		};
+		FDA37FE023A122A4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWPaintViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWPaintView.app/YWPaintView";
+			};
+			name = Release;
+		};
+		FDA37FE223A122A4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWPaintViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWPaintView;
+			};
+			name = Debug;
+		};
+		FDA37FE323A122A4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWPaintViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWPaintViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWPaintView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA37FA723A122A2000DADED /* Build configuration list for PBXProject "YWPaintView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37FD923A122A4000DADED /* Debug */,
+				FDA37FDA23A122A4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37FDB23A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37FDC23A122A4000DADED /* Debug */,
+				FDA37FDD23A122A4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37FDE23A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37FDF23A122A4000DADED /* Debug */,
+				FDA37FE023A122A4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37FE123A122A4000DADED /* Build configuration list for PBXNativeTarget "YWPaintViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37FE223A122A4000DADED /* Debug */,
+				FDA37FE323A122A4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA37FA423A122A2000DADED /* Project object */;
+}
