@@ -33,7 +33,7 @@
 
 @implementation YWPaintController
 
-#warning - 另外2份项目：建github☑️、创建项目与配置☑️、创建文件夹☑️、抄、简书、简历2份、看备忘录的demo项
+#warning - 另外2份项目：建github☑️、创建项目与配置☑️、创建文件夹☑️、抄☑️、简书、简历2份、看备忘录的demo项
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -111,7 +111,7 @@
 
 - (IBAction)drawGreen {
     
-    self.paintView.drawColor = [UIColor greenColor];
+    self.paintView.drawColor = [UIColor blueColor];
 }
 
 - (IBAction)drawWidth:(UISlider *)sender {
