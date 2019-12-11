@@ -70,9 +70,9 @@
 
     
     CATransition *anim = [CATransition animation];
-    //        anim.type = @"cube";
-    //        anim.subtype = kCATransitionFromTop;
-    anim.type = @"rippleEffect";
+            anim.type = @"cube";
+            anim.subtype = kCATransitionFromTop;
+//    anim.type = @"rippleEffect";
     anim.duration = 0.5;
     [self.paintView.layer addAnimation:anim forKey:nil];
     
